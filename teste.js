@@ -1,4 +1,5 @@
-/*const escola = "cod3r";
+// Aula string
+{const escola = "cod3r";
 console.log("Sentença de código");
 
 console.log(escola.charAt(4));
@@ -11,7 +12,9 @@ console.log(escola.substring(0,3));
 console.log("Escola ".concat(escola).concat("!!"));
 console.log(escola.replace(3, "R"));
 console.log("Ana,Maria,Pedro".split(","));
-*/
+}
+// Aula Boolean
+{
 let isAtivo = false;
 console.log(isAtivo);
 isAtivo = true;
@@ -34,7 +37,6 @@ console.log(!!{})
 console.log(!!Infinity)
 console.log(!!(isAtivo = true))
 
-
 console.log("os falsos...")
 console.log(!!0)
 console.log(!!"")
@@ -46,6 +48,9 @@ console.log(!!'' || null || 0 || 'epa')
 // Retorna o primeiro valor verdadeiro 
 let nome = ""
 console.log(!! nome || "Desconhecido")
+}
+// Aula Array
+{
 const valores = [7.7, 8.9, 6.3, 9.2]
 console.log(valores[1], valores[3])
 console.log(valores[2])
@@ -61,3 +66,4 @@ console.log(valores)
 console.log(valores.length)
 delete valores[8]
 console.log(valores)
+}
