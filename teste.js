@@ -1,0 +1,9 @@
+const valores = [7.7, 8.9, 6.3, 9.2]
+console.log(valores[1], valores[3])
+console.log(valores[2])
+valores[4] = 10
+console.log(valores[4])
+console.log(valores)
+console.log(valores.length)
+valores.push({id: 3}, false, true, "Teste", null)
+console.log(valores)
