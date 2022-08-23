@@ -55,3 +55,9 @@ console.log(valores)
 console.log(valores.length)
 valores.push({id: 3}, false, true, "Teste", null)
 console.log(valores)
+console.log(valores.pop())
+// retirou o ultimo valor de "valores"
+console.log(valores)
+console.log(valores.length)
+delete valores[8]
+console.log(valores)
