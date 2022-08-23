@@ -1,4 +1,5 @@
 // Aula string
+console.log(`1 ___________ String`)
 {const escola = "cod3r";
 console.log("Sentença de código");
 
@@ -14,17 +15,18 @@ console.log(escola.replace(3, "R"));
 console.log("Ana,Maria,Pedro".split(","));
 }
 // Aula Boolean
+console.log(`2 ___________ Boolean`)
 {
 let isAtivo = false;
 console.log(isAtivo);
 isAtivo = true;
 console.log(isAtivo);
-console.log(`1 ___________`)
+console.log(`  A ___________`)
 isAtivo = 1;
 console.log(!isAtivo); //Exclamação significa negação
 console.log(!!isAtivo); /* Duas exclamações está negando duas vezes
 então acaba aformando */
-console.log(`2 ___________`)
+console.log(`  B ___________`)
 console.log("os verdadeiros...") 
 // Todos os valores inteiros não "True", menos o zero
 console.log(!!3)
@@ -50,6 +52,7 @@ let nome = ""
 console.log(!! nome || "Desconhecido")
 }
 // Aula Array
+console.log(`3 ___________ Array`)
 {
 const valores = [7.7, 8.9, 6.3, 9.2]
 console.log(valores[1], valores[3])
