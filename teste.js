@@ -70,3 +70,20 @@ console.log(valores.length)
 delete valores[8]
 console.log(valores)
 }
+// Aula Objeto
+console.log(`4 ___________ Objeto`)
+{
+  const prod1 = {}
+prod1.nome = "Iphone 13 Max 2022"
+prod1.preco = 4950.94
+prod1["Descotonto de"] = 0.4
+/* Não é recomendado usar espaço no atributo do objeto
+*/
+console.log(prod1)
+
+const prod2 = {
+  nome: "Camisa polo",
+  preco: 79.80,
+  tamanho: 80
+  }
+}
