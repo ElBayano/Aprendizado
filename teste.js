@@ -86,4 +86,50 @@ const prod2 = {
   preco: 79.80,
   tamanho: 80
   }
+console.log(prod2)
 }
+
+// Aula Função
+console.log(`5 ___________ Função`)
+{
+  function imprimirSoma (a, b) {
+  console.log(a+b)
+};
+
+imprimirSoma(2,3);
+imprimirSoma(2);
+imprimirSoma(2,3,4,5,7,8,9);
+console.log(`
+SEPARAÇÃO
+`)
+function soma (a, b = 0) {
+  return a + b
+}
+console.log(soma(2,3))
+console.log(soma(2))
+console.log(soma())
+function parimp(n) { 
+  if (n%2==0) { return "par"
+  } else {
+    return "ímpar"
+  }
+}
+let res = parimp(11)
+console.log(res)
+
+function paridade(n) {
+  if (n%2==0) {return "Par"} else {return "Ímpar"}
+}
+console.log(paridade(7))
+}
+
+// Aula loop var
+console.log(`6 ___________ loop var`)
+{
+  var nome = "numero"
+  for (var i = 0; i<10; i++) {console.log(i)}
+console.log(i) // resultado é 10
+
+}
+
+for (let a = 0; a< 10; a++) {console.log(a)}
