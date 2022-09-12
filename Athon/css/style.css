@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;500&display=swap');
+
+* {
+	font-family: 'Heebo', sans-serif;
+	margin: 0;
+	paddin: 0;}
+
+
+.logo { 
+  	display: flex;
+  	align-items: flex-end;
+	width: 28px;
+	padding-left: 20px;
+	width: 50%;}
+
+#logo {
+	width: 40px;
+	aling: end;}
+
+
+body { position: relative;
+	background-image: url(../snipets/bg-img.svg);
+	background-repeat: no-repeat;
+	background-size: cover;}
+
+header {
+	background-image: linear-gradient(270.09deg, #2172CE -10.18%, #3153DE 68.1%);
+	border-radius: 0px 0px 30px 30px;;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	}
+
+nav {	
+	padding-right: 85px;
+	display:flex;
+	gap: 85px;}
+main {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-beetwen;}
+
+.texto {
+	display: flex;
+	align-items: center;
+	color: white;
+	height: 60vh;}
+footer {
+	padding-top: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+	height: 160px;
+	width: 100%;
+	color: white;
+	background-color: rgba(42, 73, 194, 0.33);
+	backdrop-filter: blur(2px);}
+h1 {
+	padding-left: 25px;}
+h3 {
+	padding-left: 25px;}
+p {
+	padding-left: 25px;}
+span {
+	color: #98AAF1;}
+
+a { 
+	text-decoration-line: none; 
+	color: white;}
