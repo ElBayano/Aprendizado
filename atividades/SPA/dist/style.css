@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(213.62deg, #686C87 34.86%, #333541 94.35%);
+}
+
+
+.header{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    z-index: 1000;
+    /* background-image: #8993d4; */
+    background-image: linear-gradient(-90deg, #1d1d1d00 0%,  #1d1d1d07 4%, #252412 88.47%);
+    left: -200px;
+    transition: left 200ms ease-in-out;
+}
+.on {
+    width: 200px;
+    height: 100%;
+    left: 0;
+    transition: left 250ms ease-in-out;
+}
+
+.menu {
+    position: absolute;
+    left: 120px;
+    top: 44px;
+    background-color: transparent;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1020;
+    cursor: pointer;
+}
+
+.hamburguer1,
+.hamburguer2,
+.hamburguer3 {
+    background-color: white;
+    width: 26px;
+    height: 4px;
+    border-radius: 2px;
+    box-shadow: 1px 0px 4px rgb(66, 66, 66);
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 100px;
+}
+
+nav ul li {
+    padding: 0 0 24px 20px;
+    text-align: left;
+    transition: all 400ms ease-in-out;
+}
+nav ul li:hover {
+    padding: 0 0 24px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    font-weight: 500;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.border {
+    width: 974px;
+    height: 540px;
+    background-color: rgb(213, 213, 94);
+}
+#content {
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+    width: 974px;
+    height: 540px;
+    background-image: linear-gradient(107.64deg, rgba(213, 219, 255, 0.15) 3.82%, rgba(217, 217, 217, 0) 88.47%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0px;
+    padding: 0px 72px;
+    color: rgb(235, 235, 235);
+    font-size: 18px;
+}
+
+
+/* #content::after {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    background-color: black;
+    border-radius: 60px;
+
+} */
+
+#elipse-1,
+#elipse-2,
+#elipse-3,
+#elipse-4,
+#elipse-5 {
+    position: absolute;
+    width: 200px;
+    clip-path: circle(50.0% at 50% 50%);
+    background-color: white;
+}
+
+ul {
+    padding-left: 50px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+p {
+    margin: 20px 0;
+}
